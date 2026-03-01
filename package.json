@@ -1,0 +1,7 @@
+{
+  "name": "ONIZUKA",
+  "version": "1.0.0",
+  "dependencies": {
+    "discord.js": "^14.14.1"
+  }
+}
