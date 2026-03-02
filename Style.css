@@ -1,0 +1,36 @@
+/* GLOBAL */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Montserrat', sans-serif; background: #1e1e2f; color: #fff; text-align: center; line-height: 1.6; padding: 0 20px; }
+
+/* HEADER */
+.hero { padding: 80px 20px; background: linear-gradient(135deg,#7289DA,#99AAB5); border-bottom: 4px solid #7289DA; margin-bottom: 40px; }
+.hero h1 { font-family: 'Orbitron', sans-serif; font-size: 3.5rem; text-shadow:0 0 10px #7289DA; }
+.hero p { font-size: 1.5rem; margin-top:10px; }
+.btn-discord { display:inline-block; padding:15px 40px; margin-top:20px; background:#7289DA; color:#fff; font-weight:bold; text-decoration:none; border-radius:12px; transition:all 0.3s ease; }
+.btn-discord:hover { transform:scale(1.05); box-shadow:0 0 20px #7289DA,0 0 40px #99aab5; }
+
+/* SECTIONS */
+.section { padding:60px 20px; margin-bottom:40px; }
+.section h2 { font-size:2.5rem; color:#00b0f4; margin-bottom:25px; text-shadow:0 0 5px #00b0f4; }
+
+/* BOXES */
+.info-box, .dev-box, .box { background:#23272A; border:2px solid #7289DA; border-radius:15px; padding:25px 30px; margin:20px auto; max-width:900px; text-align:left; transition:all 0.3s ease; }
+.info-box:hover, .dev-box:hover, .box:hover { box-shadow:0 0 20px #7289DA,0 0 40px #99aab5; transform:translateY(-5px); }
+.section ul { list-style:none; padding-left:20px; }
+.section li { margin-bottom:10px; }
+
+/* GAMES */
+.games { display:flex; flex-wrap:wrap; justify-content:center; gap:25px; }
+.game-box { background:#2C2F33; border:2px solid #00b0f4; border-radius:15px; padding:30px; width:270px; transition:all 0.3s ease; }
+.game-box:hover { transform:translateY(-7px); box-shadow:0 0 20px #00b0f4,0 0 40px #7289DA; }
+.game-box h3 { color:#00b0f4; font-size:1.8rem; margin-bottom:15px; }
+
+/* BIG LIST */
+.big-list { list-style:none; font-size:1.4rem; line-height:2; max-width:750px; margin:auto; }
+
+/* FOOTER */
+footer { padding:30px; background:#111122; color:#99aab5; margin-top:50px; font-size:0.9rem; }
+
+/* FADE ANIMATION */
+.fade { opacity:0; transform:translateY(50px); transition: all 0.8s ease; }
+.fade.visible { opacity:1; transform:translateY(0); }
